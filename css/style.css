@@ -133,6 +133,9 @@ div.head-menu a.anchor:hover{
 	font-size:12px;
 	font-weight:bold;
 }
+.head-space{
+	margin-right:20px;
+}
 div.head-btn:hover{
 	background-color:#cda45e;
 	color:white;
@@ -141,7 +144,6 @@ div.head-btn:hover{
 
 /*----banner section starts----*/
 .banner-section{
-	height:650px;
     background-image: linear-gradient(rgba(13 12 12 / 60%),rgb(19 19 18 / 57%)),url(../images/hero-bg.jpg);
 	background-size:cover;
 	background-repeat:no-repeat;
@@ -149,7 +151,7 @@ div.head-btn:hover{
 }
 
 .banner-section h1{
-	font-size:50px;
+	font-size:43px;
 	font-weight:700;
 	color:white;
 	font-family:"poppins", serif;
@@ -164,16 +166,20 @@ div.head-btn:hover{
 	font-family:"Raleway",sans-serif;
 }
 .banner-content{
-	width:100%;
+	width:50%;
 	padding:300px 0;
-	position:relative;
 }
 
 a.head-btn:hover{
 	background-color:#cda45e;
 	color:white;
 }
-
+.banner-box{
+	width:50%;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
 
 .ply-btn{
 	height:60px;
@@ -232,12 +238,9 @@ a.head-btn:hover{
 	height:90px;
 	width:90px;
 	border-radius:50%;
-	position:absolute;
 	display:flex;
 	justify-content:center;
 	align-items:center;
-	right:160px;
-	top:300px;
 	background-color:rgba(205,164,94,0.5);	
 	overflow:hidden;
 }
@@ -263,7 +266,6 @@ a.head-btn:hover{
 	padding:80px 0px;
 }
 .about-section{
-	height:600px;
 	padding:100px 0px;
 	background-image: linear-gradient(rgba(13 12 12 / 97%),rgb(19 19 18 / 87%)),url(../images/about-bg.jpg);
 	background-size:cover;
@@ -284,6 +286,7 @@ div.abt-image{
 	width:50%;
 	position:relative;
 	transition:1s ease-in-out;
+	margin-bottom:20px;
 }
 
 div.abt-image::before{
@@ -331,6 +334,7 @@ div.abt-image:hover::before{
 	height:450px;
 	padding-right:10px;
 	color:white;
+	margin-bottom:20px;
 }
 
 .font-opensans{
@@ -383,6 +387,7 @@ div.abt-image:hover::before{
 .box{
 	width:33.33%;
 	padding:0 10px;
+	margin-bottom:20px;
 }
 .outer-box{
 	width:100%;
@@ -522,6 +527,7 @@ div.food-name a.anchor:hover{
 }
 .spl-menu{
 	width:20%;	
+	margin-bottom:20px;
 }
 .spl-contain{
 	width:80%;
@@ -531,6 +537,7 @@ div.food-name a.anchor:hover{
 	width:70%;
 	color:#878684;
 	padding:0px 10px;
+	margin-bottom:20px;
 }
 .spl-content h1{
 	color:white;
@@ -552,12 +559,13 @@ div.food-name a.anchor:hover{
 }
 .spl-image{
 	width:30%;
-	height:300px;
+	margin-bottom:20px;
 }
 .special-img{
-	height:300px;
-	width:300px;
+	height:100%;
+	width:100%;
 	border-radius:50%;
+	
 }
 .menu-item{
 	width:100%;
@@ -589,6 +597,7 @@ div.food-name a.anchor:hover{
 
 .event-img{
 	width:50%;	
+	margin-bottom:20px;
 }
 .evt-img{
 	width:100%;
@@ -597,7 +606,7 @@ div.food-name a.anchor:hover{
 	width:50%;
 	padding:15px;
 	color:white;
-
+	margin-bottom:20px;
 }
 .event-content h1{
 	font-size:25px;
@@ -706,17 +715,15 @@ div.food-name a.anchor:hover{
 .test-div{
 	width:33.33%;
 	padding:0 20px;
-	padding-bottom:120px;
+	margin-bottom:120px;
 	position:relative;
 }
 .out-content{
 	background-color:#26231d;
-	min-height:220px;	
+	height:220px;	
 }
 .test-content{
 	padding:20px 20px 50px 20px;
-	max-height:170px;
-	overflow:auto;
 }
 .test-content i{
 	color:#cda45e;
@@ -761,7 +768,7 @@ div.food-name a.anchor:hover{
 
 /*----gallery section starts----*/
 .gal-section{
-	background-color:#0c0b09;
+	background-color:black;
 	padding: 40px 0;
 }
 
@@ -798,7 +805,7 @@ div.food-name a.anchor:hover{
 .chef-box{
 	width:33.33%;
 	padding:0 15px;
-	
+	margin-bottom:20px;
 }
 .chef-image{
 	width:100%;
@@ -880,21 +887,22 @@ div.food-name a.anchor:hover{
 .map-detail{
 	width:100%;
 	display:flex;
+	padding-bottom:10px;
 }
 .ico-div{
 	width:80px;
-	height:80px;
+	height:60px;
 }
 .con-icon{
-	width:60px;
-	height:60px;
+	width:50px;
+	height:50px;
 	border-radius:50%;
 	display:flex;
 	justify-content:center;
 	align-items:center;
 	background-color:#cda45e;
 	color:white;
-	font-size:35px;
+	font-size:25px;
 }
 .location-div{
 	width:70%;
