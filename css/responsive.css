@@ -35,20 +35,27 @@
 		width:91.66%;
 	}
 	.col-12{
-		width:100% !important;
+		width:100%!important; 
 	}
 	.container{
 		width:100%!important;
 	}
 	.disp-none{
-		display:none !important;
+		display:none 
 	}
 	.head-date{
 		text-align:center;
 	}
+	.banner-container{
+		height:auto;
+		padding:200px 0;
+	}
 	.banner-content{
 		padding-bottom:20px;
 		text-align:center;
+	}
+	.banner-box{
+		height:auto;
 	}
 	.column-reverse{
 		flex-direction:column-reverse;
@@ -62,4 +69,20 @@
 	.pd-btm{
 		padding-bottom:20px;
 	}
+	.rt-area a{
+		margin-left:18px;
+	}
+	.h1-f-size{
+		font-size:28px;
+	}
+	.h3-f-size{
+		font-size:18px;
+	}
+	.f-size-30{
+		font-size:30px;
+	}
+	.spl-content h1 {
+		font-size:26px;
+	}
+	
 }
