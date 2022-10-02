@@ -39,9 +39,9 @@
 	}
 	.container{
 		width:100%!important;
-	}
+		}
 	.disp-none{
-		display:none 
+		display:none; 
 	}
 	.head-date{
 		text-align:center;
@@ -69,9 +69,6 @@
 	.pd-btm{
 		padding-bottom:20px;
 	}
-	.rt-area a{
-		margin-left:18px;
-	}
 	.h1-f-size{
 		font-size:28px;
 	}
@@ -85,4 +82,103 @@
 		font-size:26px;
 	}
 	
+}
+@media  (min-width:768px) and (max-width:992px)  {
+	.col-md-1{
+		width:8.33%;
+	}
+	.col-md-2{
+		width:16.66%;
+	}
+	.col-md-3{
+		width:25%;
+	}
+	.col-md-4{
+		width:33.33%;
+	}
+	.col-md-5{
+		width:41.66%;
+	}
+	.col-md-6{
+		width:50%;
+	}
+	.col-md-7{
+		width:58.33%;
+	}
+	.col-md-8{
+		width:66.66%;
+	}
+	.col-md-9{
+		width:75%;
+	}
+	.col-md-10{
+		width:83.33%;
+	}
+	.col-md-11{
+		width:91.66%;
+	}
+	.col-md-12{
+		width:100%!important; 
+	}
+	.container{
+		width:100%!important;
+	}
+	.disp-md-none{
+		display:none; 
+	}
+	.banner-container{
+		height:auto;
+		padding-top:150px;
+		padding-bottom:50px;
+	}
+	.banner-content{
+		padding-bottom:20px;
+		text-align:center;
+	}
+	.banner-box{
+		height:auto;
+	}
+	div.abt-image{
+		padding:20px;
+	}
+	div.abt-image::before{
+		top:38px;
+		left:38px;
+	}
+	div.abt-image::after{
+		bottom:40px;
+		right:40px;
+	}
+	div.abt-image:hover::after{
+	bottom:30px;
+	right:30px;
+	}
+	div.abt-image:hover::before{
+	top:28px;
+	left:28px;
+	}
+	.food-name{
+	width:94%;
+	}
+	.food-price{
+	width:6%;
+	}
+	.food-contain::after{
+		width:85%;
+	}
+	.out-content{
+		min-height:120px;	
+	}
+	.describe{
+		top: 85px;
+	}
+	.pd-btm{
+		padding-bottom:20px;
+	}
+	.test-div{
+		margin-bottom:70px;
+	}
+	.column-reverse{
+		flex-direction:column-reverse;
+	}
 }

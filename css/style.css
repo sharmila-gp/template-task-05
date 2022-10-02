@@ -715,7 +715,7 @@ div.food-name a.anchor:hover{
 }
 .out-content{
 	background-color:#26231d;
-	height:220px;	
+	min-height:220px;	
 }
 .test-content{
 	padding:20px 20px 50px 20px;
@@ -1029,26 +1029,31 @@ div.food-name a.anchor:hover{
 	border:1px solid #878684;
 	background-color:#1a1814;
 	color:white;
-	padding:10px 0;
+	display:flex;
 }
-.rt-area input{
+.input-class{
 	width:70%;
+	padding:9px;
+	
+}
+.input-class input{
+	width:100%;
 	background-color:#1a1814;
 	border:1px solid #1a1814;
 	color:white;
-	margin-left:12px;
 	padding:2px 0;
 }
-.rt-area a{
+.subscribe {
 	width:30%;
 	background-color:#cda45e;
 	color:white;
 	padding:12px;
 	border-radius:30px;
 	font-size:16px;
-	margin-left:9px;
 	}
-
+.subscribe a{
+	width:100%;
+}
 
 .line{
 	background-color:#878684;
