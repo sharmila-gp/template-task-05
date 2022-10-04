@@ -39,6 +39,7 @@
 	}
 	.container{
 		width:100%!important;
+		padding:0 10px;
 		}
 	.disp-none{
 		display:none; 
@@ -46,6 +47,10 @@
 	.head-date{
 		text-align:center;
 	}
+	.banner-section{
+		background-position:center;
+	}
+	
 	.banner-container{
 		height:auto;
 		padding:200px 0;
@@ -60,8 +65,69 @@
 	.column-reverse{
 		flex-direction:column-reverse;
 	}
-	.food-name{
-		width:85%;
+	.food-contain::after{
+		width:46%;
+	}
+	.rt-area a{
+		font-size:10px;
+	}
+	.pd-btm{
+		padding-bottom:20px;
+	}
+	.h1-f-size{
+		font-size:18px;
+	}
+	.h3-f-size{
+		font-size:18px;
+	}
+	.banner-content h1{
+		font-size:35px;
+	}
+	.banner-content h3{
+		font-size:18px;
+	}
+	.head-btn{
+		font-size:11px;
+		padding:5px 10px;
+	}
+	.food-name {
+		font-size:12px;
+	}
+	.f-size-30{
+		font-size:30px;
+	}
+	.spl-content h1 {
+		font-size:26px;
+	}
+}
+@media (min-width:576px) and (max-width:768px)
+{
+	.col-12{
+		width:100%!important; 
+	}
+	.container{
+		width:100%!important;
+		padding:0 10px;
+		}
+		.disp-none{
+		display:none; 
+		}
+		.column-reverse{
+		flex-direction:column-reverse;
+		}
+	.banner-container{
+		height:auto;
+		padding:120px 0;
+	}
+	.banner-content{
+		padding-bottom:20px;
+		text-align:center;
+	}
+	.banner-box{
+		height:auto;
+	}
+	.column-reverse{
+		flex-direction:column-reverse;
 	}
 	.rt-area a{
 		font-size:13px;
@@ -78,10 +144,18 @@
 	.f-size-30{
 		font-size:30px;
 	}
+	.food-name {
+		font-size:12px;
+	}
 	.spl-content h1 {
 		font-size:26px;
 	}
-	
+	.out-content{
+		min-height:120px;	
+	}
+	.describe{
+		top: 110px;
+	}
 }
 @media  (min-width:768px) and (max-width:992px)  {
 	.col-md-1{
@@ -122,13 +196,14 @@
 	}
 	.container{
 		width:100%!important;
+		padding:0 10px;
 	}
 	.disp-md-none{
 		display:none; 
 	}
 	.banner-container{
 		height:auto;
-		padding-top:150px;
+		padding-top:440px;
 		padding-bottom:50px;
 	}
 	.banner-content{

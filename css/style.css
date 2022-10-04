@@ -167,7 +167,6 @@ div.head-btn:hover{
 }
 .banner-content h1{
 	font-size:43px;
-	font-weight:700;
 	color:white;
 	font-family:"Open Sans", serif;
 }
@@ -480,12 +479,13 @@ div.food-type:hover{
 .food-contain{
 	width:100%;
 	display:flex;
+	justify-content:space-between;
 }
 .food-name{
-	width:87%;
 	color:#d1d1d0;
 	font-weight:bold;
 	padding-top:10px;
+	font-size:16px;
 }
 
 .food-name a{
@@ -495,7 +495,7 @@ div.food-type:hover{
 }
 .food-contain::after{
 	content:"";
-	width:70%;
+	width:79%;
 	height:1px;
 	border-top:2px dotted #878684;
 	position:absolute;
@@ -504,11 +504,9 @@ div.food-type:hover{
 	z-index:-1;
 }
 .food-price{
-	width:13%;
 	color:#cda45e;
-	padding-left:4px;
+	text-align:right;
 	padding-top:12px;
-	text-align:right; 	
 	font-family:"Arial", serif;
 	background-color:#1a1814;
 	z-index:1;
@@ -1050,6 +1048,7 @@ div.food-name a.anchor:hover{
 	padding:12px;
 	border-radius:30px;
 	font-size:16px;
+	text-align:center;
 	}
 .subscribe a{
 	width:100%;
