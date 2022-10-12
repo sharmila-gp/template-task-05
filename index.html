@@ -42,7 +42,13 @@
 		<div class="head-logo col-12 h1-f-size col-md-12">
 			<h1><a class="anchor"href="#">RESTAURANTLY</a></h1>
 		</div>
-		<div class="head-menu disp-none disp-md-none">
+		<div class="menu-close-btn" id="mobile-btn">
+			<div class="bar-lt"></div>
+			<div class="bar-ct"></div>
+			<div class="bar-rt"></div>
+		</div>
+		<div class="head-menu disp-md-none">
+		
 		<ul>
 			<li class="list"><a class="anchor" href="#">Home</a></li>
 			<li class="list"><a class="anchor" href="#">About</a></li>
@@ -851,5 +857,15 @@
 
 </footer>
 <!-- Footer section ends -->
+
+<script type="text/javascript">
+	let mobileBtn = document.getElementById("mobile-btn");
+	let mobileNav = document.getElementsByClassName("head-menu")[0];
+
+	mobileBtn.addEventListener("click", ()=>{
+		mobileBtn.classList.toggle("active-btn");
+		mobileNav.classList.toggle("active-menu");
+	});
+</script>
 </body>
 </html>
